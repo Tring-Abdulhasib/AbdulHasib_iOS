@@ -14,6 +14,8 @@
 		206F13242E7939CA00065570 /* AbdulHasib_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 206F13222E7939CA00065570 /* AbdulHasib_iOS.xcdatamodeld */; };
 		206F13262E7939CD00065570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F13252E7939CD00065570 /* Assets.xcassets */; };
 		206F13292E7939CD00065570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206F13272E7939CD00065570 /* LaunchScreen.storyboard */; };
+		206F13362E7970B900065570 /* CartPageTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13352E7970B900065570 /* CartPageTableVC.swift */; };
+		206F133A2E79713200065570 /* ProductCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13392E79713200065570 /* ProductCardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		206F13252E7939CD00065570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206F13282E7939CD00065570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206F132A2E7939CD00065570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206F13352E7970B900065570 /* CartPageTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageTableVC.swift; sourceTree = "<group>"; };
+		206F13392E79713200065570 /* ProductCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		206F13182E7939CA00065570 /* AbdulHasib_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				206F13372E7970E700065570 /* CustomCells */,
+				206F13302E79464100065570 /* ViewControllers */,
 				206F13192E7939CA00065570 /* AppDelegate.swift */,
 				206F131B2E7939CA00065570 /* SceneDelegate.swift */,
 				206F131D2E7939CA00065570 /* ViewController.swift */,
@@ -68,6 +74,30 @@
 				206F13222E7939CA00065570 /* AbdulHasib_iOS.xcdatamodeld */,
 			);
 			path = AbdulHasib_iOS;
+			sourceTree = "<group>";
+		};
+		206F13302E79464100065570 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				206F13352E7970B900065570 /* CartPageTableVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		206F13372E7970E700065570 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				206F13382E7970FF00065570 /* CartPageProject */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		206F13382E7970FF00065570 /* CartPageProject */ = {
+			isa = PBXGroup;
+			children = (
+				206F13392E79713200065570 /* ProductCardCell.swift */,
+			);
+			path = CartPageProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +174,9 @@
 				206F13242E7939CA00065570 /* AbdulHasib_iOS.xcdatamodeld in Sources */,
 				206F131E2E7939CA00065570 /* ViewController.swift in Sources */,
 				206F131A2E7939CA00065570 /* AppDelegate.swift in Sources */,
+				206F133A2E79713200065570 /* ProductCardCell.swift in Sources */,
 				206F131C2E7939CA00065570 /* SceneDelegate.swift in Sources */,
+				206F13362E7970B900065570 /* CartPageTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
