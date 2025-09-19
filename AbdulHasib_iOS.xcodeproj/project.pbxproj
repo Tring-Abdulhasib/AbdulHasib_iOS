@@ -16,6 +16,10 @@
 		206F13292E7939CD00065570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206F13272E7939CD00065570 /* LaunchScreen.storyboard */; };
 		206F13362E7970B900065570 /* CartPageTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13352E7970B900065570 /* CartPageTableVC.swift */; };
 		206F133A2E79713200065570 /* ProductCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13392E79713200065570 /* ProductCardCell.swift */; };
+		206F133C2E798BA900065570 /* URLSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F133B2E798BA900065570 /* URLSessionVC.swift */; };
+		206F133F2E79942F00065570 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F133E2E79942F00065570 /* DataModel.swift */; };
+		206F13422E7A759600065570 /* TringMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13412E7A759600065570 /* TringMediaCell.swift */; };
+		206F13442E7D347E00065570 /* SignInPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F13432E7D347E00065570 /* SignInPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		206F132A2E7939CD00065570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206F13352E7970B900065570 /* CartPageTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageTableVC.swift; sourceTree = "<group>"; };
 		206F13392E79713200065570 /* ProductCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCell.swift; sourceTree = "<group>"; };
+		206F133B2E798BA900065570 /* URLSessionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionVC.swift; sourceTree = "<group>"; };
+		206F133E2E79942F00065570 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		206F13412E7A759600065570 /* TringMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TringMediaCell.swift; sourceTree = "<group>"; };
+		206F13432E7D347E00065570 /* SignInPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		206F13182E7939CA00065570 /* AbdulHasib_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				206F133D2E79940D00065570 /* Models */,
 				206F13372E7970E700065570 /* CustomCells */,
 				206F13302E79464100065570 /* ViewControllers */,
 				206F13192E7939CA00065570 /* AppDelegate.swift */,
@@ -80,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				206F13352E7970B900065570 /* CartPageTableVC.swift */,
+				206F133B2E798BA900065570 /* URLSessionVC.swift */,
+				206F13432E7D347E00065570 /* SignInPageVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -87,6 +98,7 @@
 		206F13372E7970E700065570 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				206F13402E7A756E00065570 /* TringMediaProject */,
 				206F13382E7970FF00065570 /* CartPageProject */,
 			);
 			path = CustomCells;
@@ -98,6 +110,22 @@
 				206F13392E79713200065570 /* ProductCardCell.swift */,
 			);
 			path = CartPageProject;
+			sourceTree = "<group>";
+		};
+		206F133D2E79940D00065570 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				206F133E2E79942F00065570 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		206F13402E7A756E00065570 /* TringMediaProject */ = {
+			isa = PBXGroup;
+			children = (
+				206F13412E7A759600065570 /* TringMediaCell.swift */,
+			);
+			path = TringMediaProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +204,11 @@
 				206F131A2E7939CA00065570 /* AppDelegate.swift in Sources */,
 				206F133A2E79713200065570 /* ProductCardCell.swift in Sources */,
 				206F131C2E7939CA00065570 /* SceneDelegate.swift in Sources */,
+				206F133F2E79942F00065570 /* DataModel.swift in Sources */,
 				206F13362E7970B900065570 /* CartPageTableVC.swift in Sources */,
+				206F13442E7D347E00065570 /* SignInPageVC.swift in Sources */,
+				206F133C2E798BA900065570 /* URLSessionVC.swift in Sources */,
+				206F13422E7A759600065570 /* TringMediaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

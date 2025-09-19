@@ -13,5 +13,7 @@ class ProductCardCell: UITableViewCell {
     @IBOutlet weak var priceLabel : UILabel!
     @IBOutlet weak var stockLabel : UILabel!
     @IBOutlet weak var offerLabel : UILabel!
-
+    
+    
+    
 }

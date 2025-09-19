@@ -22,7 +22,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         projects = [
             ProjectItem(title: "15/09/2025 - Table View Task", destinationViewController: { UIStoryboard.instantiate(CartPageTableVC.self) }),
             
-            ProjectItem(title: "16/09/2025 - NS URL Session", destinationViewController: { UIStoryboard.instantiate(CartPageTableVC.self) }),
+            ProjectItem(title: "16/09/2025 - NS URL Session", destinationViewController: { UIStoryboard.instantiate(URLSessionVC.self) }),
+            ProjectItem(title: "19/09/2025 - Sign In API (POST)", destinationViewController: { UIStoryboard.instantiate(URLSessionVC.self) }),
         ]
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,10 +44,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    
+
 
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        			
         let project = projects[indexPath.row]
             let vc = project.destinationViewController()
             navigationController?.pushViewController(vc, animated: true)
